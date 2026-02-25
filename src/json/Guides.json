@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "title": "Explore Rishikesh Like a Local",
+    "subtitle": "Spiritual vibes, nature escapes & scooty freedom",
+    "description": "Rishikesh is not just about rafting and temples. Discover hidden waterfalls, peaceful ghats, scenic mountain roads and cafés — best explored on a scooty."
+  },
+
+  "map": {
+    "embedUrl": "https://www.google.com/maps/d/embed?mid=1RishikeshSampleMapID"
+  },
+
+  "whyScooty": {
+    "title": "Why Explore Rishikesh on a Scooty?",
+    "points": [
+      "Freedom to explore hidden spots",
+      "Easy access to hill roads & waterfalls",
+      "Cheapest & fastest local transport",
+      "Perfect for couples & solo travelers",
+      "Hassle-free parking near ghats & cafés"
+    ]
+  },
+
+  "categories": [
+    {
+      "id": "spiritual",
+      "title": "Spiritual & Cultural Places",
+      "icon": "spiritual",
+      "places": [
+        {
+          "name": "Triveni Ghat",
+          "description": "The most sacred ghat in Rishikesh, located at the confluence of the Ganga, Yamuna and Saraswati rivers. Famous for its soulful evening Ganga Aarti.",
+          "best_time": "6:00 – 7:00 PM (Aarti time)",
+          "distance": "Central Rishikesh",
+          "tips": "Reach at least 30 minutes early for a good spot during Aarti.",
+          "image": "/assets/64.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=triveni+ghat&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Parmarth Niketan Ashram",
+          "description": "One of the largest and most renowned ashrams in Rishikesh, known for yoga, meditation programs and its peaceful riverside Ganga Aarti.",
+          "best_time": "Morning or Evening",
+          "distance": "Ram Jhula Area",
+          "tips": "Wear modest clothes and maintain silence inside the ashram.",
+          "image": "/assets/52.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=parmarth+niketan+ashram&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Beatles Ashram (Chaurasi Kutia)",
+          "description": "A historic meditation complex where The Beatles stayed in 1968. Known for meditation domes, graffiti art and spiritual calm inside the forest.",
+          "best_time": "Morning (8:00 – 11:00 AM)",
+          "distance": "Near Ram Jhula",
+          "tips": "Carry water and wear comfortable shoes; entry ticket required.",
+          "image": "/assets/53.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=beatles+ashram&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+
+        {
+          "name": "Ram Jhula",
+          "description": "A suspension bridge connecting Sivananda Ashram to Swarg Ashram. A peaceful spiritual stretch with temples, ashrams and river views.",
+          "best_time": "Morning Walks",
+          "distance": "Near Parmarth Niketan",
+          "tips": "Best explored early morning for calm vibes.",
+          "image": "/assets/54.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=ram+jhula&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Neelkanth Mahadev Temple",
+          "description": "A sacred Shiva temple located in the forested hills above Rishikesh. According to mythology, Lord Shiva drank poison here during Samudra Manthan.",
+          "best_time": "Early Morning",
+          "distance": "32 km from Rishikesh",
+          "tips": "Road is scenic but narrow; ride carefully on scooty.",
+          "image": "/assets/61.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=neelkanth+mahadev+temple&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Janki Setu",
+          "description": "A newly constructed pedestrian suspension bridge connecting Tapovan to Swarg Ashram. Offers stunning river views and smoother walking experience.",
+          "best_time": "Morning or Sunset",
+          "distance": "Tapovan Area",
+          "tips": "Great alternative to Lakshman Jhula for peaceful walks.",
+          "image": "/assets/57.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=janki+setu+rishikesh&cp=30.136023%7E78.172970&lvl=10.7&style=r"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Nature & Scenic Spots",
+      "icon": "nature",
+      "places": [
+        {
+          "name": "Neer Garh Waterfall",
+          "description": "One of the most popular waterfalls near Rishikesh. A short uphill trek leads to multiple cascading pools surrounded by lush greenery.",
+          "best_time": "Morning (8:00 – 11:00 AM)",
+          "distance": "6 km from Lakshman Jhula",
+          "tips": "Wear good trekking shoes and avoid weekends for less crowd.",
+          "image": "/assets/56.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=neer+garh+waterfall&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Kyarki View Point",
+          "description": "A peaceful hilltop viewpoint offering panoramic views of the Ganga valley, forested mountains, and winding hill roads. One of the best hidden scooty ride destinations near Rishikesh.",
+          "best_time": "Early Morning or Sunset",
+          "distance": "14 km from Tapovan",
+          "tips": "Road is narrow but scenic; ideal for scooty rides. Carry water and avoid riding after dark.",
+          "image": "/assets/58.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=kyarki+view+point&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Patna Waterfall",
+          "description": "A peaceful and less crowded waterfall located near Patna village. Ideal for travelers looking for calm nature and photography.",
+          "best_time": "Morning",
+          "distance": "7 km from Lakshman Jhula",
+          "tips": "Avoid visiting during heavy rainfall season.",
+          "image": "/assets/55.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=patna+waterfall&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+
+        {
+          "name": "Shivpuri",
+          "description": "A scenic riverside destination known for white water rafting camps, forest surroundings, and sunset river views.",
+          "best_time": "Anytime (Sunset recommended)",
+          "distance": "16 km from Rishikesh",
+          "tips": "Great stop while riding towards Devprayag road.",
+          "image": "/assets/59.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=shivpuri+rishikesh&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Marine Drive Viewpoint",
+          "description": "A picturesque stretch along the Ganga offering mountain views, calm riverbanks, and scenic cycling & scooty rides.",
+          "best_time": "Early Morning or Sunset",
+          "distance": "24 km from Rishikesh",
+          "tips": "Carry water; limited shops on the route.",
+          "image": "/assets/60.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=marine+drive+rishikesh&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Kaudiyala",
+          "description": "A serene hill-side location famous for extreme rafting stretches, jungle views and peaceful river surroundings.",
+          "best_time": "Morning",
+          "distance": "36 km from Rishikesh",
+          "tips": "Best for experienced riders; roads are curvy.",
+          "image": "/assets/50.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=kaudiyala&cp=30.103121%7E78.299606&lvl=16&style=r"
+        },
+        {
+          "name": "Ganga Beach (Secret Beaches)",
+          "description": "Hidden sandy riverbanks along the Ganga, perfect for relaxing, picnics, and peaceful sunset moments.",
+          "best_time": "Morning or Evening",
+          "distance": "Various spots around Tapovan & Shivpuri",
+          "tips": "Avoid swimming; currents can be strong.",
+          "image": "/assets/60.jpg",
+          "map_link": "https://www.bing.com/maps/search?FORM=HDRSC6&q=ganga+beach+rishikesh&cp=30.103121%7E78.299606&lvl=16&style=r"
+        }
+      ]
+    }
+  ],
+
+  "bikeRental": {
+    "title": "Scooty & Bike Rentals in Rishikesh",
+    "description": "Well-maintained scooties & bikes with local guidance so you explore confidently.",
+    "features": [
+      "Hourly & daily rentals",
+      "Helmets included",
+      "Local route guidance",
+      "Best sightseeing suggestions"
+    ],
+    "cta": {
+      "call": "+91XXXXXXXXXX",
+      "whatsappText": "Hi, I want to rent a scooty in Rishikesh with local sightseeing guidance."
+    }
+  },
+
+  "localTips": [
+    "Start early to avoid traffic",
+    "Avoid Jhula areas during peak hours",
+    "Carry cash for parking",
+    "Wear modest clothes near temples",
+    "Always wear a helmet"
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 101,
+    "slug": "brahmpuri-rafting",
+    "name": "Brahmpuri Rafting",
+    "route": "Brahmpuri to Ram Jhula",
+    "distance_km": 12,
+    "grade": "Grade I–II",
+    "ideal_for": ["Beginners", "Families", "Kids"],
+    "price": 449,
+    "oldPrice": 699,
+    "rating": 4.7,
+    "image": "/assets/21.webp"
+  },
+  {
+    "id": 102,
+    "slug": "club-house-rafting",
+    "name": "Club House (Phool Chatti) Rafting",
+    "route": "Club House to Ram Jhula",
+    "distance_km": 14,
+    "grade": "Grade II",
+    "ideal_for": ["Beginners", "Groups"],
+    "price": 300,
+    "oldPrice": 800,
+    "rating": 4.8,
+    "image": "/assets/22.webp"
+  },
+  {
+    "id": 103,
+    "slug": "marine-drive-shivpuri-rafting",
+    "name": "Marine Drive Rafting",
+    "route": "Marine Drive to Shivpuri",
+    "distance_km": 12,
+    "grade": "Grade II-III",
+    "ideal_for": ["Beginners", "Adventure Seekers", "Groups"],
+    "price": 700,
+    "oldPrice": 1499,
+    "rating": 4.9,
+    "image": "/assets/38.webp"
+  },
+  {
+    "id": 104,
+    "slug": "shivpuri-rafting",
+    "name": "Shivpuri Rafting",
+    "route": "Shivpuri to Ram Jhula",
+    "distance_km": 16,
+    "grade": "Grade II–III",
+    "ideal_for": ["First Timers", "Groups"],
+    "price": 350,
+    "oldPrice": 1000,
+    "rating": 4.9,
+    "image": "/assets/23.webp"
+  },
+  {
+    "id": 105,
+    "slug": "marine-drive-rafting",
+    "name": "Marine Drive Rafting",
+    "route": "Marine Drive to Ram Jhula",
+    "distance_km": 24,
+    "grade": "Grade III–IV",
+    "ideal_for": ["Adventure Lovers", "Thrill Seekers"],
+    "price": 600,
+    "oldPrice": 1500,
+    "rating": 5.0,
+    "image": "/assets/33.webp"
+  },
+  {
+    "id": 106,
+    "slug": "kaudiyala-rafting",
+    "name": "Kaudiyala Rafting",
+    "route": "Kaudiyala to Ram Jhula",
+    "distance_km": 36,
+    "grade": "Grade IV+",
+    "ideal_for": ["Experienced Rafters Only"],
+    "price": 1200,
+    "oldPrice": 2500,
+    "rating": 4.8,
+    "image": "/assets/37.webp"
+  }
+]

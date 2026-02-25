@@ -1,0 +1,1557 @@
+{
+  "sky-walk": {
+    "id": 301,
+    "slug": "sky-walk",
+    "name": "Sky Walk",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Sky Walk / Height Experience",
+
+    "height": "109 Metres",
+    "length": "20 Metres",
+    "duration": "10 – 15 Minutes",
+    "best_season": "All Year",
+    "minimum_age": 10,
+    "maximum_age": 60,
+    "minimum_weight": "30 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Basic fitness required",
+
+    "ideal_for": [
+      "Beginners",
+      "Families",
+      "Kids (10+)",
+      "Non-adrenaline seekers",
+      "Photography lovers"
+    ],
+
+    "price": "999",
+    "oldPrice": "1,499",
+
+    "tagline": "Walk on a transparent bridge suspended high above the valley for a breathtaking experience.",
+
+    "overview": "Sky Walk at Splash Adventure is a thrilling yet beginner-friendly experience where participants walk on a transparent glass bridge suspended at extreme height. Designed for people who want to experience height without jumping, Sky Walk offers stunning panoramic views of the surrounding valley and river while ensuring maximum safety through international-grade harness systems.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "Transparent glass walkway",
+      "Extreme height with full safety harness",
+      "Panoramic valley & river views",
+      "Perfect for beginners & families",
+      "Photo & video friendly activity"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants report at the Splash Adventure activity zone and complete registration."
+      },
+      {
+        "step": 2,
+        "title": "Safety Briefing",
+        "description": "Professional staff explain safety protocols, harness usage, and movement instructions."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Equipment Check",
+        "description": "Participants are fitted with international safety harnesses and double-checked."
+      },
+      {
+        "step": 4,
+        "title": "Sky Walk Experience",
+        "description": "Participants walk across the transparent bridge while enjoying breathtaking views."
+      },
+      {
+        "step": 5,
+        "title": "Exit & Photos",
+        "description": "Participants exit safely and can collect photos or videos if opted."
+      }
+    ],
+
+    "inclusions": [
+      "International standard safety harness",
+      "Certified safety supervisor",
+      "Pre-activity safety briefing",
+      "Secure locking system"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Is Sky Walk safe for children?",
+        "a": "Yes, children above 10 years can safely participate under supervision."
+      },
+      {
+        "q": "Do I need any prior experience?",
+        "a": "No experience is required. Sky Walk is designed for beginners."
+      },
+      {
+        "q": "Is Sky Walk scary?",
+        "a": "It offers height exposure but no jumping, making it suitable even for nervous participants."
+      },
+      {
+        "q": "Can senior citizens do Sky Walk?",
+        "a": "Yes, if they meet fitness and weight criteria."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety Policy",
+        "points": [
+          "Harness usage is mandatory at all times.",
+          "Activity may be stopped due to high winds or weather conditions."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Sky Walk in Rishikesh | Glass Bridge Adventure at Splash",
+      "meta_description": "Experience Sky Walk in Rishikesh at Splash Adventure. Walk on a transparent glass bridge at extreme height with full safety."
+    }
+  },
+
+  "rocket-bungy-85m": {
+    "id": 302,
+    "slug": "rocket-bungy-85m",
+    "name": "Rocket Bungy",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Reverse Bungy / Launch Ride",
+
+    "height": "85 Metres",
+    "launch_speed": "Up to 120 km/h (approx)",
+    "duration": "2 – 3 Minutes",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "40 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Basic fitness required",
+
+    "ideal_for": [
+      "Adrenaline junkies",
+      "Thrill seekers",
+      "Young adults",
+      "Repeat adventure lovers"
+    ],
+
+    "price": "1,999",
+    "oldPrice": "2,499",
+
+    "tagline": "A high-speed reverse bungy launch that shoots you skyward with intense G-forces.",
+
+    "overview": "Rocket Bungy at Splash Adventure is a high-adrenaline reverse bungy experience where participants are launched rapidly upwards instead of jumping down. The ride delivers intense G-forces within seconds, propelling riders skyward before rebounding smoothly. It is designed for thrill seekers who want extreme excitement without the fear of stepping off a platform.",
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "High-speed vertical launch experience",
+      "Extreme G-force sensation",
+      "No jumping required",
+      "International safety standards",
+      "Perfect for repeat thrill seekers"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants report at the Rocket Bungy launch zone and complete registration formalities."
+      },
+      {
+        "step": 2,
+        "title": "Safety Briefing",
+        "description": "Professional operators explain the launch mechanism, body posture, and safety protocols."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Seat Lock",
+        "description": "Participants are secured in a specially designed seated harness with multiple safety locks."
+      },
+      {
+        "step": 4,
+        "title": "Countdown & Launch",
+        "description": "After a short countdown, riders are launched skyward at extreme speed."
+      },
+      {
+        "step": 5,
+        "title": "Descent & Exit",
+        "description": "The system gradually lowers participants back to the ground for a smooth exit."
+      }
+    ],
+
+    "inclusions": [
+      "International-grade seated harness",
+      "Certified ride operator",
+      "Multi-lock safety system",
+      "Pre-ride safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Is Rocket Bungy safe?",
+        "a": "Yes, Rocket Bungy uses international safety mechanisms with multiple redundant locking systems."
+      },
+      {
+        "q": "Do I need to jump?",
+        "a": "No, Rocket Bungy launches you upward automatically. No jumping is required."
+      },
+      {
+        "q": "Is it more intense than normal bungy?",
+        "a": "Yes, the launch delivers stronger G-forces in a very short time, making it extremely intense."
+      },
+      {
+        "q": "Can beginners try Rocket Bungy?",
+        "a": "Yes, but it is recommended for people comfortable with high-speed rides."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety Policy",
+        "points": [
+          "Harness and seat locks must remain secured at all times.",
+          "Ride may be suspended due to strong winds or technical checks."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before the activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Rocket Bungy in Rishikesh | High-Speed Reverse Bungy Ride",
+      "meta_description": "Experience Rocket Bungy in Rishikesh at Splash Adventure. A high-speed reverse bungy launch with extreme G-force thrill."
+    }
+  },
+
+  "zipline-500m": {
+    "id": 303,
+    "slug": "zipline-500m",
+    "name": "Zipline Adventure",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Zipline / Flying Fox",
+
+    "length": "500 Metres",
+    "height": "Approx. 90 Metres",
+    "speed": "Up to 60 km/h (approx)",
+    "duration": "1 – 2 Minutes",
+    "best_season": "All Year",
+    "minimum_age": 10,
+    "maximum_age": 60,
+    "minimum_weight": "30 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Basic fitness required",
+
+    "ideal_for": [
+      "Beginners",
+      "Families",
+      "Kids (10+)",
+      "Couples",
+      "Nature & photography lovers"
+    ],
+
+    "price": "1,199",
+    "oldPrice": "1,999",
+
+    "tagline": "Glide across the valley on a high-speed zipline with stunning panoramic views.",
+
+    "overview": "Zipline Adventure at Splash Adventure is a smooth and scenic flying experience where participants glide across a long zipline suspended high above the valley. Designed for both beginners and adventure lovers, this activity combines moderate speed with breathtaking views of the surrounding hills and river, making it an unforgettable yet comfortable thrill.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "500-metre long zipline",
+      "Panoramic valley & river views",
+      "Smooth and controlled descent",
+      "Beginner-friendly adventure",
+      "Perfect for photos and videos"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at the zipline zone and complete registration formalities."
+      },
+      {
+        "step": 2,
+        "title": "Safety Briefing",
+        "description": "Instructors explain body posture, braking system, and safety procedures."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Gear Setup",
+        "description": "Participants are fitted with safety harnesses and helmets."
+      },
+      {
+        "step": 4,
+        "title": "Zipline Ride",
+        "description": "Participants glide across the valley enjoying speed and scenic views."
+      },
+      {
+        "step": 5,
+        "title": "Landing & Exit",
+        "description": "Controlled braking system ensures a smooth and safe landing."
+      }
+    ],
+
+    "inclusions": [
+      "International-grade safety harness",
+      "Protective helmet",
+      "Certified zipline instructor",
+      "Pre-ride safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Is zipline safe for beginners?",
+        "a": "Yes, the zipline is designed to be beginner-friendly with controlled speed and safety systems."
+      },
+      {
+        "q": "Do I need any experience?",
+        "a": "No prior experience is required. Instructors guide you throughout the activity."
+      },
+      {
+        "q": "Can children do zipline?",
+        "a": "Yes, children above 10 years can participate under safety supervision."
+      },
+      {
+        "q": "What if I’m afraid of heights?",
+        "a": "The experience is smooth and not sudden, making it comfortable for most participants."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety Policy",
+        "points": [
+          "Harness and helmet must be worn at all times.",
+          "Activity may be paused due to weather or technical checks."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Zipline in Rishikesh | 500m Flying Fox at Splash Adventure",
+      "meta_description": "Enjoy a 500-metre zipline ride in Rishikesh at Splash Adventure with panoramic views and complete safety."
+    }
+  },
+
+  "tower-top-swing": {
+    "id": 304,
+    "slug": "tower-top-swing",
+    "name": "Tower Top Swing",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Giant Swing / Free-Fall Swing",
+
+    "height": "109 Metres",
+    "swing_arc": "Approx. 120° Arc",
+    "duration": "2 – 3 Minutes",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "35 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Basic fitness required",
+
+    "ideal_for": [
+      "First-time thrill seekers",
+      "Adrenaline lovers",
+      "People afraid of jumping",
+      "Couples",
+      "Repeat adventure participants"
+    ],
+
+    "price": "1,199",
+    "oldPrice": "1,999",
+
+    "tagline": "Experience a powerful free-fall followed by a massive pendulum swing from tower-top height.",
+
+    "overview": "Tower Top Swing at Splash Adventure is an intense yet controlled thrill experience where participants step off from a tower-top platform and experience a short free-fall before transitioning into a massive pendulum swing. Unlike bungy jumping, this activity allows participants to enjoy height and motion without rebounding, making it perfect for those who want thrill without extreme impact.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "Tower-top free-fall experience",
+      "Smooth pendulum swing motion",
+      "Extreme height without rebound",
+      "International safety harness",
+      "Perfect alternative to bungy jump"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at the Tower Swing platform and complete registration formalities."
+      },
+      {
+        "step": 2,
+        "title": "Safety Briefing",
+        "description": "Professional staff explain harness system, swing mechanics, and safety protocols."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Equipment Check",
+        "description": "Participants are fitted with a full-body safety harness and double-checked."
+      },
+      {
+        "step": 4,
+        "title": "Free-Fall & Swing",
+        "description": "Participants step off the platform, experience a brief free-fall, and swing smoothly."
+      },
+      {
+        "step": 5,
+        "title": "Exit & Recovery",
+        "description": "The swing slows down naturally and participants are safely detached."
+      }
+    ],
+
+    "inclusions": [
+      "International-grade full-body harness",
+      "Certified swing operator",
+      "Multi-point safety system",
+      "Pre-activity safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Is Tower Top Swing safe?",
+        "a": "Yes, it uses international-grade harness systems with multiple safety checks."
+      },
+      {
+        "q": "Is it scarier than bungy?",
+        "a": "It feels intense initially but is smoother than bungy due to the swinging motion."
+      },
+      {
+        "q": "Do I need to jump?",
+        "a": "You step off the platform; the swing motion takes over automatically."
+      },
+      {
+        "q": "Can beginners try Tower Top Swing?",
+        "a": "Yes, it is suitable for beginners with basic fitness."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety Policy",
+        "points": [
+          "Harness must remain secured at all times.",
+          "Activity may be suspended due to weather or safety checks."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Tower Top Swing in Rishikesh | Giant Swing at Splash Adventure",
+      "meta_description": "Experience Tower Top Swing in Rishikesh at Splash Adventure. A thrilling free-fall and giant swing from tower-top height."
+    }
+  },
+
+  "splash-bungy-109m": {
+    "id": 305,
+    "slug": "splash-bungy-109m",
+    "name": "Splash Bungy Jump",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Bungy Jump / Water Touch",
+
+    "height": "109 Metres",
+    "jump_type": "Water Touch Bungy",
+    "duration": "2 – 3 Minutes",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "35 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Moderate fitness required",
+
+    "ideal_for": [
+      "First-time bungy jumpers",
+      "Adrenaline seekers",
+      "Adventure enthusiasts",
+      "Bucket-list experiences",
+      "Solo & group travelers"
+    ],
+
+    "price": "3,999",
+    "oldPrice": "4,999",
+
+    "tagline": "India’s highest water-touch bungy jump delivering unmatched adrenaline and cinematic views.",
+
+    "overview": "Splash Bungy Jump at Splash Adventure is India’s highest water-touch bungy experience, launched from a towering 109-metre platform over a scenic river valley. Designed to international standards, this bungy jump offers a smooth free-fall followed by a dramatic water-touch moment before rebounding safely. It is the ultimate adventure for thrill seekers looking for a once-in-a-lifetime experience in Rishikesh.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+    "highlights": [
+      "India’s highest water-touch bungy jump",
+      "109-metre free-fall experience",
+      "Controlled water touch before rebound",
+      "Certified international safety systems",
+      "Free DSLR video (as per availability)"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at the Splash Adventure bungy zone and complete registration and consent formalities."
+      },
+      {
+        "step": 2,
+        "title": "Safety Briefing",
+        "description": "Certified bungy masters explain jump technique, body posture, and emergency procedures."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Weight Check",
+        "description": "Participants are weighed and fitted with ankle and body harness systems with multiple safety checks."
+      },
+      {
+        "step": 4,
+        "title": "Platform Walk & Countdown",
+        "description": "Participants walk to the edge of the 109-metre platform and receive the final countdown."
+      },
+      {
+        "step": 5,
+        "title": "The Bungy Jump",
+        "description": "Experience a vertical free-fall followed by a controlled water-touch and rebound."
+      },
+      {
+        "step": 6,
+        "title": "Recovery & Exit",
+        "description": "Participants are slowly lowered to the recovery zone and safely detached."
+      }
+    ],
+
+    "inclusions": [
+      "International-grade bungy cord",
+      "Ankle & body safety harness",
+      "Certified bungy jump master",
+      "Pre-jump safety briefing",
+      "Free DSLR video (as per package)"
+    ],
+
+    "exclusions": [
+      "Photos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Is Splash Bungy the highest in India?",
+        "a": "Yes, Splash Bungy is India’s highest water-touch bungy jump at 109 metres."
+      },
+      {
+        "q": "Is bungy jumping safe?",
+        "a": "Yes, the activity follows international safety standards with certified jump masters and equipment."
+      },
+      {
+        "q": "Do I need prior experience?",
+        "a": "No experience is required. First-time jumpers are fully guided."
+      },
+      {
+        "q": "Will I touch the water?",
+        "a": "Yes, the jump is designed for a controlled water-touch before rebounding."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety & Weather Policy",
+        "points": [
+          "Jump may be postponed due to high winds or unsafe weather conditions.",
+          "All safety instructions must be followed strictly."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before the activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "109m Bungy Jump in Rishikesh | India’s Highest Water Touch Bungy",
+      "meta_description": "Experience India’s highest 109m water-touch bungy jump in Rishikesh at Splash Adventure with certified safety and free DSLR video."
+    }
+  },
+
+  "combo-1": {
+    "id": 401,
+    "slug": "combo-1",
+    "name": "Combo 1 – Bungy + Tower Swing",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Combo Adventure Package",
+
+    "display_metric": "Combo Pack",
+    "duration": "30 – 45 Minutes (approx)",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "35 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Moderate fitness required",
+
+    "includes": [
+      {
+        "slug": "splash-bungy-109m",
+        "name": "Splash Bungy Jump (109m)",
+        "description": "India’s highest water-touch bungy jump from a 109-metre platform."
+      },
+      {
+        "slug": "tower-top-swing",
+        "name": "Tower Top Swing",
+        "description": "A powerful free-fall followed by a massive pendulum swing from tower-top height."
+      }
+    ],
+
+    "price": "3,500",
+    "oldPrice": "5,500",
+
+    "tagline": "Combine India’s highest bungy jump with an extreme tower swing at a special price.",
+
+    "overview": "Combo 1 at Splash Adventure is a value-packed adventure bundle designed for thrill seekers who want to experience two of the most iconic activities in one go. This combo includes the legendary 109-metre Splash Bungy Jump followed by the Tower Top Swing, offering both vertical free-fall and swinging motion in a single adrenaline-filled session.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "Best-value Splash combo package",
+      "Includes India’s highest water-touch bungy",
+      "Experience both free-fall and swing motion",
+      "Single registration & safety briefing",
+      "Significant savings compared to individual bookings"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at Splash Adventure and complete registration for both activities."
+      },
+      {
+        "step": 2,
+        "title": "Combined Safety Briefing",
+        "description": "Professional instructors explain safety protocols for both bungy jump and tower swing."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Weight Check",
+        "description": "Participants are weighed and fitted with certified harness systems."
+      },
+      {
+        "step": 4,
+        "title": "Splash Bungy Jump",
+        "description": "Participants complete the 109-metre water-touch bungy jump experience."
+      },
+      {
+        "step": 5,
+        "title": "Tower Top Swing",
+        "description": "After recovery, participants proceed for the tower top swing experience."
+      },
+      {
+        "step": 6,
+        "title": "Exit & Completion",
+        "description": "Participants exit safely after completing both activities."
+      }
+    ],
+
+    "inclusions": [
+      "Splash Bungy Jump (109m)",
+      "Tower Top Swing",
+      "International-grade safety equipment",
+      "Certified adventure instructors",
+      "Pre-activity safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Can both activities be done on the same day?",
+        "a": "Yes, both activities are completed in a single session under professional supervision."
+      },
+      {
+        "q": "Which activity is done first?",
+        "a": "Usually the bungy jump is done first, followed by the tower swing."
+      },
+      {
+        "q": "Is Combo 1 safe?",
+        "a": "Yes, both activities follow international safety standards with certified instructors."
+      },
+      {
+        "q": "Is this combo suitable for first-timers?",
+        "a": "Yes, it is suitable for first-time participants with basic fitness."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety & Weather Policy",
+        "points": [
+          "Activities may be delayed or rescheduled due to weather conditions.",
+          "Participants must follow all safety instructions."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before the activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Bungy + Tower Swing Combo in Rishikesh | Splash Adventure Combo 1",
+      "meta_description": "Book Combo 1 at Splash Adventure in Rishikesh. Includes India’s highest 109m bungy jump and Tower Top Swing at a special price."
+    }
+  },
+  "combo-2": {
+    "id": 402,
+    "slug": "combo-2",
+    "name": "Combo 2 – Mega Adventure Combo",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Combo Adventure Package",
+
+    "display_metric": "Mega Combo",
+    "duration": "45 – 60 Minutes (approx)",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "35 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Moderate fitness required",
+
+    "includes": [
+      {
+        "slug": "splash-bungy-109m",
+        "name": "Splash Bungy Jump (109m)",
+        "description": "India’s highest water-touch bungy jump from a 109-metre platform."
+      },
+      {
+        "slug": "tower-top-swing",
+        "name": "Tower Top Swing",
+        "description": "A thrilling free-fall followed by a massive pendulum swing from tower-top height."
+      },
+      {
+        "slug": "zipline-500m",
+        "name": "Zipline (500m)",
+        "description": "Fly across the valley on a 500-metre zipline with breathtaking panoramic views."
+      },
+      {
+        "slug": "sky-walk",
+        "name": "Sky Walk",
+        "description": "Walk on a transparent glass bridge suspended high above the valley."
+      }
+    ],
+
+    "price": "6,000",
+    "oldPrice": "8,500",
+
+    "tagline": "Experience all major Splash Adventure activities in one mega value combo.",
+
+    "overview": "Combo 2 – Mega Adventure Combo is designed for thrill seekers who want the complete Splash Adventure experience in a single visit. This all-inclusive combo combines extreme adrenaline with scenic and beginner-friendly activities. Participants start with India’s highest bungy jump, followed by a tower swing, a thrilling zipline ride, and a confidence-building sky walk — all under one safety briefing and registration.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "All major Splash Adventure activities in one combo",
+      "India’s highest 109m water-touch bungy jump",
+      "Perfect mix of extreme thrill and scenic experiences",
+      "Single registration & combined safety briefing",
+      "Huge savings compared to individual activity bookings"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at Splash Adventure and complete registration for all activities."
+      },
+      {
+        "step": 2,
+        "title": "Combined Safety Briefing",
+        "description": "Professional instructors explain safety procedures for all included activities."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Weight Check",
+        "description": "Participants are weighed and fitted with certified safety harness systems."
+      },
+      {
+        "step": 4,
+        "title": "Splash Bungy Jump",
+        "description": "Participants complete the 109-metre water-touch bungy jump experience."
+      },
+      {
+        "step": 5,
+        "title": "Tower Top Swing",
+        "description": "Participants experience a powerful free-fall and pendulum swing from tower height."
+      },
+      {
+        "step": 6,
+        "title": "Zipline Adventure",
+        "description": "Participants glide across the valley on the 500-metre zipline."
+      },
+      {
+        "step": 7,
+        "title": "Sky Walk Experience",
+        "description": "Participants finish the combo with a confidence-building walk on the glass bridge."
+      },
+      {
+        "step": 8,
+        "title": "Exit & Completion",
+        "description": "Participants exit safely after completing all activities."
+      }
+    ],
+
+    "inclusions": [
+      "Splash Bungy Jump (109m)",
+      "Tower Top Swing",
+      "Zipline (500m)",
+      "Sky Walk",
+      "International-grade safety equipment",
+      "Certified adventure instructors",
+      "Combined safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Can all activities be completed in one day?",
+        "a": "Yes, all activities in Combo 2 are completed in a single session."
+      },
+      {
+        "q": "Which activity is done first?",
+        "a": "The bungy jump is usually done first, followed by other activities."
+      },
+      {
+        "q": "Is Combo 2 suitable for beginners?",
+        "a": "Yes, participants with basic fitness can safely enjoy this combo under supervision."
+      },
+      {
+        "q": "How much time does Combo 2 take?",
+        "a": "The complete experience takes approximately 45–60 minutes."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety & Weather Policy",
+        "points": [
+          "Activities may be delayed or rescheduled due to weather conditions.",
+          "Participants must strictly follow instructor guidelines."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before the activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Mega Adventure Combo in Rishikesh | Splash Combo 2",
+      "meta_description": "Book Combo 2 – Mega Adventure Combo at Splash Adventure in Rishikesh. Includes bungy jump, tower swing, zipline & sky walk at the best price."
+    }
+  },
+  "combo-3": {
+    "id": 403,
+    "slug": "combo-3",
+    "name": "Combo 3 – Extreme Adventure Combo",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Combo Adventure Package",
+
+    "display_metric": "Extreme Combo",
+    "duration": "35 – 50 Minutes (approx)",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "35 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Moderate to High fitness required",
+
+    "includes": [
+      {
+        "slug": "rocket-bungy-85m",
+        "name": "Rocket Bungy (85m)",
+        "description": "A high-speed reverse bungy launch delivering intense G-forces without jumping."
+      },
+      {
+        "slug": "zipline-500m",
+        "name": "Zipline (500m)",
+        "description": "Glide across the valley on a long zipline with panoramic river and mountain views."
+      },
+      {
+        "slug": "sky-walk",
+        "name": "Sky Walk",
+        "description": "Walk on a transparent glass bridge suspended high above the valley."
+      }
+    ],
+
+    "price": "5,000",
+    "oldPrice": "7,500",
+
+    "tagline": "An extreme combo featuring rocket bungy, zipline and sky walk for pure adrenaline.",
+
+    "overview": "Combo 3 – Extreme Adventure Combo is designed for thrill seekers who want powerful adrenaline without committing to a traditional bungy jump. This combo features the high-intensity Rocket Bungy launch, followed by a scenic zipline ride and a confidence-building Sky Walk. It perfectly balances speed, height, and visual thrill in a single adventure package.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "High-intensity Rocket Bungy launch",
+      "Perfect combo for non-jump thrill seekers",
+      "Balanced mix of speed, height & scenic views",
+      "Single registration and safety briefing",
+      "Great value compared to booking individually"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at Splash Adventure and complete registration for all activities."
+      },
+      {
+        "step": 2,
+        "title": "Combined Safety Briefing",
+        "description": "Professional instructors explain safety procedures for rocket bungy, zipline and sky walk."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Weight Check",
+        "description": "Participants are weighed and fitted with certified harness and safety equipment."
+      },
+      {
+        "step": 4,
+        "title": "Rocket Bungy Launch",
+        "description": "Participants experience the intense reverse bungy launch with extreme G-forces."
+      },
+      {
+        "step": 5,
+        "title": "Zipline Adventure",
+        "description": "Participants glide across the valley on the 500-metre zipline."
+      },
+      {
+        "step": 6,
+        "title": "Sky Walk Experience",
+        "description": "Participants finish with a walk on the transparent glass bridge."
+      },
+      {
+        "step": 7,
+        "title": "Exit & Completion",
+        "description": "Participants exit safely after completing all included activities."
+      }
+    ],
+
+    "inclusions": [
+      "Rocket Bungy (85m)",
+      "Zipline (500m)",
+      "Sky Walk",
+      "International-grade safety equipment",
+      "Certified adventure instructors",
+      "Combined safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Is Rocket Bungy safer than normal bungy?",
+        "a": "Yes, Rocket Bungy uses seated harnesses and controlled launch systems with multiple safety locks."
+      },
+      {
+        "q": "Is this combo suitable for beginners?",
+        "a": "Yes, participants with basic confidence and fitness can enjoy this combo safely."
+      },
+      {
+        "q": "Do I need to jump in any activity?",
+        "a": "No jumping is required. Rocket Bungy launches automatically, and Sky Walk involves walking only."
+      },
+      {
+        "q": "How long does Combo 3 take?",
+        "a": "The full experience takes approximately 35–50 minutes."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety & Weather Policy",
+        "points": [
+          "Activities may be delayed or rescheduled due to weather or technical checks.",
+          "Participants must follow all safety instructions provided by instructors."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before the activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Extreme Combo Adventure in Rishikesh | Splash Combo 3",
+      "meta_description": "Book Combo 3 – Extreme Adventure Combo at Splash Adventure, Rishikesh. Includes Rocket Bungy, Zipline & Sky Walk at a great price."
+    }
+  },
+  "combo-6": {
+    "id": 404,
+    "slug": "combo-6",
+    "name": "Extreme Combo 6 – All Activities",
+    "location": "Shivpuri, Rishikesh",
+    "platform": "Splash Adventure",
+    "activity_type": "Ultimate Combo Adventure Package",
+
+    "display_metric": "All Activities",
+    "duration": "60 – 90 Minutes (approx)",
+    "best_season": "All Year",
+    "minimum_age": 12,
+    "maximum_age": 60,
+    "minimum_weight": "35 kg",
+    "maximum_weight": "120 kg",
+    "fitness_level": "Moderate to High fitness required",
+
+    "includes": [
+      {
+        "slug": "splash-bungy-109m",
+        "name": "Splash Bungy Jump (109m)",
+        "description": "India’s highest water-touch bungy jump from a 109-metre platform."
+      },
+      {
+        "slug": "rocket-bungy-85m",
+        "name": "Rocket Bungy (85m)",
+        "description": "A high-speed reverse bungy launch delivering intense G-forces."
+      },
+      {
+        "slug": "tower-top-swing",
+        "name": "Tower Top Swing",
+        "description": "A thrilling free-fall followed by a massive pendulum swing from tower-top height."
+      },
+      {
+        "slug": "zipline-500m",
+        "name": "Zipline (500m)",
+        "description": "Glide across the valley on a long zipline with panoramic views."
+      },
+      {
+        "slug": "sky-walk",
+        "name": "Sky Walk",
+        "description": "Walk on a transparent glass bridge suspended high above the valley."
+      }
+    ],
+
+    "price": "5,500",
+    "oldPrice": "7,999",
+
+    "tagline": "Experience every Splash Adventure activity in one ultimate adrenaline combo.",
+
+    "overview": "Extreme Combo 6 is the most comprehensive adventure package at Splash Adventure, designed for true adrenaline lovers who want to experience everything in one visit. This ultimate combo includes all five signature activities — the iconic 109-metre bungy jump, high-intensity rocket bungy, tower top swing, scenic zipline, and the confidence-building sky walk. With a single registration and combined safety briefing, participants enjoy maximum thrill with unbeatable value.",
+
+    "media": [
+      {
+        "media_url": "/assets/101.webp",
+        "media_role": "hero_banner"
+      },
+      {
+        "media_url": "/assets/103.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/104.webp",
+        "media_role": "gallery"
+      },
+      {
+        "media_url": "/assets/105.webp",
+        "media_role": "activity"
+      },
+      {
+        "media_url": "/assets/106.webp",
+        "media_role": "stay"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "destination"
+      },
+      {
+        "media_url": "/assets/107.webp",
+        "media_role": "hero"
+      },
+      {
+        "media_url": "/assets/108.webp",
+        "media_role": "gallery"
+      }
+    ],
+
+    "highlights": [
+      "All Splash Adventure activities in one combo",
+      "India’s highest 109m water-touch bungy jump",
+      "Maximum adrenaline with extreme savings",
+      "Single registration and combined safety briefing",
+      "Best value package for adventure enthusiasts"
+    ],
+
+    "experience_flow": [
+      {
+        "step": 1,
+        "title": "Arrival & Registration",
+        "description": "Participants arrive at Splash Adventure and complete registration for all activities."
+      },
+      {
+        "step": 2,
+        "title": "Combined Safety Briefing",
+        "description": "Professional instructors explain safety procedures for all included activities."
+      },
+      {
+        "step": 3,
+        "title": "Harness & Weight Check",
+        "description": "Participants are weighed and fitted with certified harness and safety equipment."
+      },
+      {
+        "step": 4,
+        "title": "Splash Bungy Jump",
+        "description": "Participants complete the 109-metre water-touch bungy jump experience."
+      },
+      {
+        "step": 5,
+        "title": "Rocket Bungy Launch",
+        "description": "Participants experience the intense reverse bungy launch with extreme G-forces."
+      },
+      {
+        "step": 6,
+        "title": "Tower Top Swing",
+        "description": "Participants enjoy a free-fall followed by a massive pendulum swing."
+      },
+      {
+        "step": 7,
+        "title": "Zipline Adventure",
+        "description": "Participants glide across the valley on the 500-metre zipline."
+      },
+      {
+        "step": 8,
+        "title": "Sky Walk Experience",
+        "description": "Participants finish with a walk on the transparent glass bridge."
+      },
+      {
+        "step": 9,
+        "title": "Exit & Completion",
+        "description": "Participants exit safely after completing all activities."
+      }
+    ],
+
+    "inclusions": [
+      "Splash Bungy Jump (109m)",
+      "Rocket Bungy (85m)",
+      "Tower Top Swing",
+      "Zipline (500m)",
+      "Sky Walk",
+      "International-grade safety equipment",
+      "Certified adventure instructors",
+      "Single combined safety briefing"
+    ],
+
+    "exclusions": [
+      "Photos & Videos (optional purchase)",
+      "Transportation",
+      "Personal insurance"
+    ],
+
+    "faqs": [
+      {
+        "q": "Can all five activities be completed in one day?",
+        "a": "Yes, all activities in Extreme Combo 6 are completed in a single session."
+      },
+      {
+        "q": "Is Extreme Combo 6 safe?",
+        "a": "Yes, all activities follow international safety standards with certified instructors."
+      },
+      {
+        "q": "Is this combo suitable for first-time participants?",
+        "a": "Yes, participants with basic fitness can safely complete the combo under supervision."
+      },
+      {
+        "q": "How long does Extreme Combo 6 take?",
+        "a": "The complete experience takes approximately 60–90 minutes."
+      }
+    ],
+
+    "policies": [
+      {
+        "id": 1,
+        "title": "Safety & Weather Policy",
+        "points": [
+          "Activities may be delayed or rescheduled due to weather or technical checks.",
+          "Participants must strictly follow instructor guidelines."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cancellation Policy",
+        "points": [
+          "Free cancellation up to 24 hours before the activity.",
+          "Same-day cancellations are non-refundable."
+        ]
+      }
+    ],
+
+    "seo": {
+      "meta_title": "Extreme Combo 6 in Rishikesh | All Activities Combo at Splash Adventure",
+      "meta_description": "Book Extreme Combo 6 at Splash Adventure, Rishikesh. Includes bungy jump, rocket bungy, tower swing, zipline & sky walk at the best price."
+    }
+  }
+}
