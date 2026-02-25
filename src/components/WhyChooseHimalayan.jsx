@@ -3,23 +3,23 @@ import { Heart, Star, PhoneCall, BadgeCheck } from "lucide-react";
 
 const items = [
   {
-    title: "70+ Verified Adventures",
-    desc: "From Himalayan treks to riverside camps, all experiences are quality-checked.",
+    title: "3 Million+",
+    desc: "Happy customers from 70+ countries all around.",
     icon: Heart,
   },
   {
-    title: "Top Rated Experiences",
-    desc: "Highly rated by travelers for safety, comfort & memorable moments.",
+    title: "4.8/5",
+    desc: "Rated across Trip Advisor and Google.",
     icon: Star,
   },
   {
-    title: "Carefully Curated Packages",
-    desc: "Every itinerary is crafted with attention to detail and real traveler needs.",
+    title: "Curated with love",
+    desc: "Special curated Indian itineraries for Indians.",
     icon: BadgeCheck,
   },
   {
-    title: "Dedicated Trip Assistance",
-    desc: "Our team is available 24/7 to ensure a smooth and stress-free journey.",
+    title: "24/7 On-trip assistance",
+    desc: "We are always there to help you pre, post and on the trip.",
     icon: PhoneCall,
   },
 ];
