@@ -11,6 +11,7 @@ import HowItWorksMini from "../components/HowItWorksMini";
 import LocalAdvantageSection from "../components/LocalAdvantageSection";
 import BaseHeader from "../components/BaseHeader";
 import Footer from "../components/Footer";
+import AdventureLoader from "../components/AdventureLoader";
 
 export default function Home() {
   const [showEnquiry, setShowEnquiry] = useState(false);
@@ -28,6 +29,7 @@ export default function Home() {
 
   return (
     <>
+    <AdventureLoader>
       <BaseHeader />
       <div className="space-y-10">
         <HeroSection />
@@ -45,6 +47,7 @@ export default function Home() {
         <ContactCTASection />
         <EnquiryModal isOpen={showEnquiry} onClose={() => setShowEnquiry(false)} />
       </div>
+      </AdventureLoader>
     </>
   );
 }
