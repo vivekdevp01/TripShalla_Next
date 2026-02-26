@@ -45,7 +45,8 @@ const Header3 = () => {
 
         <div className="flex items-center flex-shrink-0">
           <Link href="/" className="flex items-center gap-3 group">
-           <Image src={logosrc} alt="Tripshalla Logo" width={120} height={48} className="object-contain transition-transform group-hover:scale-105" />
+           <Image src={logosrc} alt="Tripshalla Logo"   width={48}
+  height={48} className="object-contain transition-transform group-hover:scale-105" />
             <span className="text-2xl font-black text-[#F7A325] tracking-tighter uppercase italic">Tripshalla</span>
           </Link>
         </div>
