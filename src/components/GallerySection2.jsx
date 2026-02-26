@@ -1,6 +1,7 @@
+"use client";
 import React, { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import Image from "next/image";
 const CATEGORIES = [
   { label: "All", value: "all" },
   // { label: "Trek", value: "trek" },
@@ -94,14 +95,14 @@ export default function GallerySection2() {
                 exit={{ opacity: 0, scale: 0.98 }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
                 onClick={() => setActiveImage(img)}
-                className="relative cursor-pointer overflow-hidden rounded-3xl shadow-lg bg-slate-100"
+                className="relative cursor-pointer overflow-hidden rounded-3xl shadow-lg bg-slate-100 h-[260px]"
               >
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  loading="lazy"
-                  className="w-full h-[260px] object-cover transition-transform duration-700 hover:scale-105"
-                />
+               <Image
+  src={img.src}
+  alt={img.category}
+  fill
+  className="object-cover transition-transform duration-700 hover:scale-105"
+/>
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/25 opacity-0 hover:opacity-100 transition-opacity flex items-end p-5">
@@ -131,16 +132,15 @@ export default function GallerySection2() {
               ✕
             </button>
 
-            <motion.img
-              src={activeImage.src}
-              alt={activeImage.alt}
-              initial={{ scale: 0.96 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0.96 }}
-              transition={{ duration: 0.25, ease: "easeOut" }}
-              className="max-w-[95%] max-h-[90%] rounded-2xl shadow-2xl"
-              onClick={(e) => e.stopPropagation()}
-            />
+            <div className="relative w-[95vw] h-[90vh]">
+  <Image
+    src={activeImage.src}
+    alt={activeImage.category}
+    fill
+    className="object-contain rounded-2xl shadow-2xl"
+    onClick={(e) => e.stopPropagation()}
+  />
+</div>
           </motion.div>
         )}
       </AnimatePresence>

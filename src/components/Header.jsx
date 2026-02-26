@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
+import Image from "next/image"
 
 function NavLink({ to, children, className, onClick }) {
   const pathname = usePathname();
@@ -47,10 +48,15 @@ export default function Header({
   return (
     <header className="relative w-full h-[58vh] sm:h-[65vh] md:h-[80vh] overflow-hidden font-sans">
       {/* 1. HERO BACKGROUND */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${bgImage})` }}
-      />
+      <div className="absolute inset-0">
+  <Image
+    src={bgImage}
+    alt="Header background"
+    fill
+    priority
+    className="object-cover object-center"
+  />
+</div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/10" />
 
       {/* 2. NAVIGATION BAR */}

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function HeroSection() {
   const router = useRouter();
@@ -18,11 +19,13 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-[90vh] w-full overflow-hidden">
-      <img
-        src="/assets/1.jpg"
-        alt="Himalayan Trekking"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+     <Image 
+  src="/assets/1.jpg" 
+  alt="Himalayan Trekking" 
+  fill
+  priority
+  className="object-cover"
+/>
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 max-w-7xl mx-auto h-full px-6 flex items-center">
         <motion.div

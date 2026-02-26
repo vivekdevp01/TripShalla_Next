@@ -5,6 +5,8 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import EnquiryModal from "./Packages/EnquiryModal";
 import { usePathname } from "next/navigation";
 import { FiX } from "react-icons/fi";
+import Image from "next/image";
+
 // import HeroSearch from "./HeroSearch";
 export default function HeroHeader({
   slides = [
@@ -85,11 +87,13 @@ export default function HeroHeader({
           transition={{ duration: 0.8 }}
           className="absolute inset-0"
         >
-          <img
-            src={slides[currentIndex].url}
-            className="h-full w-full object-cover opacity-70"
-            alt="Hero Background"
-          />
+         <Image
+  src={slides[currentIndex].url}
+  alt="Hero Background"
+  fill
+  priority={currentIndex === 0}
+  className="object-cover opacity-70"
+/>
           <div
             className={`absolute inset-0 bg-gradient-to-t
     from-black/80 via-black/40 to-transparent
