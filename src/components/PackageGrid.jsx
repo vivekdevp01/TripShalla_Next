@@ -145,7 +145,34 @@ export default function PackageGrid({
 {loading && (
   <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
     {[1, 2, 3].map((i) => (
-      <div key={i} className="rounded-2xl bg-slate-100 animate-pulse h-[460px] sm:h-[500px] xl:h-[540px]" />
+      <div key={i} className="rounded-2xl overflow-hidden shadow-lg h-[460px] sm:h-[500px] xl:h-[540px] bg-slate-100 relative">
+        {/* Image skeleton */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-200 to-slate-100 animate-pulse" />
+        
+        {/* Shimmer effect */}
+        <div className="absolute inset-0 -translate-x-full animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/30 to-transparent" />
+        
+        {/* Content skeleton at bottom */}
+        <div className="absolute bottom-0 inset-x-0 p-6 space-y-3">
+          {/* Duration & rating badges */}
+          <div className="flex justify-between">
+            <div className="h-6 w-16 bg-slate-300/60 rounded-full animate-pulse" />
+            <div className="h-6 w-12 bg-slate-300/60 rounded-full animate-pulse" />
+          </div>
+          {/* Title */}
+          <div className="h-6 w-3/4 bg-slate-300/60 rounded-lg animate-pulse" />
+          {/* Tagline */}
+          <div className="h-4 w-full bg-slate-300/60 rounded-lg animate-pulse" />
+          <div className="h-4 w-2/3 bg-slate-300/60 rounded-lg animate-pulse" />
+          {/* Price */}
+          <div className="h-8 w-1/3 bg-slate-300/60 rounded-lg animate-pulse" />
+          {/* Buttons */}
+          <div className="flex gap-3 pt-1">
+            <div className="h-11 w-11 bg-slate-300/60 rounded-xl animate-pulse" />
+            <div className="h-11 flex-1 bg-slate-300/60 rounded-xl animate-pulse" />
+          </div>
+        </div>
+      </div>
     ))}
   </div>
 )}

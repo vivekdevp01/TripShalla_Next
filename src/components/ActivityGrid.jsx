@@ -143,7 +143,7 @@ import { usePathname } from "next/navigation";
 import HeroHeader from "../components/HeroHeader";
 import splashActivityGrid from "../json/splashActivityGrid.json";
 import CorporateCollaborationCard from "./CorporateCollaborationCard";
-import AdventureLoader from "./AdventureLoader";
+
 export default function ActivityGrid() {
   const [visibleCount, setVisibleCount] = useState(3);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -316,7 +316,7 @@ export default function ActivityGrid() {
 
   return (
     <>
-    <AdventureLoader>
+
       {isRaftingMain ? (
         <HeroHeader slides={raftingSlides} videoID={link[1]} />
       ) : (
@@ -559,7 +559,7 @@ export default function ActivityGrid() {
           packageId={selectedPackageId}
         />
       </section>
-      </AdventureLoader>
+  
     </>
   );
 }
