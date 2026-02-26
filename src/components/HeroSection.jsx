@@ -23,7 +23,7 @@ export default function HeroSection() {
   src="/assets/1.jpg" 
   alt="Himalayan Trekking" 
   fill
-   sizes="100vw"
+  
   priority
   className="object-cover"
 />
