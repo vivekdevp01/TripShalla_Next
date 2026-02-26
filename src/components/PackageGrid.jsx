@@ -141,7 +141,6 @@ export default function PackageGrid({
    
       {/* ✅ SCROLL ANCHOR */}
       <div ref={gridTopRef} />
-      {/* HEADING */}
       {/* LOADING SKELETON */}
 {loading && (
   <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
@@ -150,6 +149,7 @@ export default function PackageGrid({
     ))}
   </div>
 )}
+      {/* HEADING */}
       <div className="mb-8 md:mb-10 px-2">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-800 leading-tight">
           {/* Use inline-flex and items-baseline to keep text on the same visual line */}
@@ -363,7 +363,7 @@ export default function PackageGrid({
         onClose={() => setIsModalOpen(false)}
         packageId={selectedPackageId}
       />
-    
+     
     </section>
   );
 }

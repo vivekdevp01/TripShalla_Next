@@ -47,9 +47,9 @@ export default function RootLayout({
       </head>
       <body>
       <ScrollToTop/>
-
+<AdventureLoader>
         {children}
- 
+    </AdventureLoader>
         <Footer/>
       </body>
     </html>
