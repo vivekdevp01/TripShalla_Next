@@ -162,21 +162,21 @@ export default function ActivityGrid() {
       tagline: "CONQUER THE ROARING RAPIDS OF",
       title: "Ganges River Rafting",
       discount: "GRADE III+ RAPIDS", // Highlights the thrill level
-      price: "1,500",
+      price: "400",
     },
     {
       url: "/assets/22.webp",
       tagline: "CHALLENGE THE LONGEST STRETCH",
       title: "Marine Drive to Rishikesh",
       discount: "26 KILOMETRES", // Highlights the distance/endurance
-      price: "2,500",
+      price: "400",
     },
     {
       url: "/assets/23.webp",
       tagline: "SAFETY IS OUR TOP PRIORITY",
       title: "Certified Instructors",
       discount: "US COAST GUARD GEAR", // Highlights the safety equipment
-      price: "1,200",
+      price: "400",
     },
   ];
 
@@ -186,21 +186,21 @@ export default function ActivityGrid() {
       tagline: "CONQUER THE HEIGHT OF", // Replaces "Get up to"
       title: "Splash Bungy Rishikesh",
       discount: "109 METRES", // Highlights height instead of %
-      price: "3,999",
+      price: "999",
     },
     {
       url: "/assets/104.webp",
       tagline: "RELIVE THE MOMENT WITH",
       title: "Cinematic Memories",
       discount: "FREE DSLR VIDEO", // Highlights the value-add
-      price: "3,999",
+      price: "999",
     },
     {
       url: "/assets/106.webp",
       tagline: "SAVE BIG ON ADRENALINE",
       title: "Extreme Combo Packs",
       discount: "30% OFF",
-      price: "5,000",
+      price: "999",
     },
   ];
 
