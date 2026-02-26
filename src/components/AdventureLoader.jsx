@@ -6,11 +6,10 @@ const AdventureLoader = ({ children, forceLoading = null }) => {
   const [internalLoading, setInternalLoading] = useState(true);
 
   useEffect(() => {
-    // If no forceLoading prop is passed (Home Page mode)
     if (forceLoading === null) {
       const timer = setTimeout(() => {
         setInternalLoading(false);
-      }, 2500);
+      }, 1500); // Reduced from 2500 to 1500
       return () => clearTimeout(timer);
     }
   }, [forceLoading]);
@@ -91,15 +90,9 @@ return (
       </AnimatePresence>
 
       {/* This renders your website content once the loader starts hiding */}
-   <main 
-        style={{ 
-          display: isCurrentlyLoading ? 'none' : 'block',
-          opacity: isCurrentlyLoading ? 0 : 1,
-          transition: 'opacity 0.5s ease-in-out' 
-        }}
-      >
+   <div style={{ visibility: isCurrentlyLoading ? 'hidden' : 'visible' }}>
         {children}
-   </main>
+      </div>
     </>
   );
 };

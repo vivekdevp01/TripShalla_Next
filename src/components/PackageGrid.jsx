@@ -142,6 +142,14 @@ export default function PackageGrid({
       {/* ✅ SCROLL ANCHOR */}
       <div ref={gridTopRef} />
       {/* HEADING */}
+      {/* LOADING SKELETON */}
+{loading && (
+  <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+    {[1, 2, 3].map((i) => (
+      <div key={i} className="rounded-2xl bg-slate-100 animate-pulse h-[460px] sm:h-[500px] xl:h-[540px]" />
+    ))}
+  </div>
+)}
       <div className="mb-8 md:mb-10 px-2">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-800 leading-tight">
           {/* Use inline-flex and items-baseline to keep text on the same visual line */}
