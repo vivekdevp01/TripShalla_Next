@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiMenu, FiX } from "react-icons/fi";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 export default function BaseHeader({ links }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ export default function BaseHeader({ links }) {
         {/* LOGO */}
         <div className="flex-shrink-0 relative z-[110]">
           <Link href="/">
-            <img src={logosrc} alt="Tripshalla" className="h-10 md:h-14 w-auto object-contain transition-transform hover:scale-105" />
+            <Image src={logosrc} width={48} height={48} alt="Tripshalla" className="h-10 md:h-14 w-auto object-contain transition-transform hover:scale-105" />
           </Link>
         </div>
 
