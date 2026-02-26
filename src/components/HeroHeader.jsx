@@ -12,31 +12,31 @@ export default function HeroHeader({
       url: "/assets/camp1.webp",
       title: "INDIA Tour Packages",
       discount: "40% OFF",
-      price: "5,999",
+      price: "1,000",
     },
     {
       url: "/assets/camp7.webp",
       title: "SIKKIM Adventure",
       discount: "30% OFF",
-      price: "7,499",
+      price: "1,000",
     },
     {
       url: "/assets/camp10.webp",
       title: "SIKKIM Adventure",
       discount: "30% OFF",
-      price: "7,499",
+      price: "1,000",
     },
     {
       url: "/assets/camp11.webp",
       title: "SIKKIM Adventure",
       discount: "30% OFF",
-      price: "7,499",
+      price: "1,000",
     },
     {
       url: "/assets/camp12.webp",
       title: "SIKKIM Adventure",
       discount: "30% OFF",
-      price: "7,499",
+      price: "1,000",
     },
   ],
   videoID,
@@ -48,10 +48,10 @@ export default function HeroHeader({
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
   const pathname = usePathname();
   const priceList = {
-  "/packages/camp": "1000",
-  "/bungee": "1200",
-};
-const price = priceList[pathname] || "600";
+    "/packages/camp": "2500",
+    "/bungee": "3000",
+  };
+  const price = priceList[pathname] || "1200";
   const pathSegment = pathname.split("/").pop();
   // Auto-scroll logic
   useEffect(() => {
@@ -140,7 +140,7 @@ const price = priceList[pathname] || "600";
         >
           {pathSegment === "bungee" ? (
             <>
-              <span className="text-yellow-400">Splash Bungy</span> 109 Metres
+              <span className="text-yellow-400">ADVENTURE</span> Tour Packages
             </>
           ) : pathSegment === "rafting" ? (
             <>
@@ -160,15 +160,101 @@ const price = priceList[pathname] || "600";
           transition={{ delay: 0.4 }}
           className="flex flex-col items-center gap-6"
         >
-          <p className="text-lg text-gray-200">
+          <motion.div
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.4 }}
+            className="relative 
+             backdrop-blur-2xl 
+             bg-black/60 
+             border border-white/10
+             rounded-3xl 
+             px-6 sm:px-8 md:px-10 
+             py-6 sm:py-7
+             shadow-[0_30px_80px_rgba(0,0,0,0.7)] 
+             flex flex-col items-center 
+             text-center
+             w-full max-w-md sm:max-w-lg"
+          >
+            {/* Subtle glow */}
+            <div className="absolute -inset-1 rounded-3xl bg-yellow-400/10 blur-2xl opacity-50 pointer-events-none" />
+
+            {/* Badge */}
+            <span
+              className="absolute -top-4 
+               bg-yellow-400 text-black 
+               text-[10px] sm:text-xs font-bold 
+               px-4 py-1.5 
+               rounded-full shadow-lg 
+               tracking-wide"
+            >
+              LIMITED OFFER
+            </span>
+
+            <p className="text-xs sm:text-sm text-gray-400 tracking-[0.25em] uppercase mt-2">
+              Starting From
+            </p>
+
+            <div className="flex items-end justify-center gap-2 sm:gap-3 mt-4">
+              {/* Old Price */}
+              <span className="text-gray-500 line-through text-base sm:text-lg">
+                ₹{price}
+              </span>
+
+              {/* New Price */}
+              <span className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white">
+                ₹{slides[currentIndex].price}
+              </span>
+
+              <span className="text-gray-300 text-xs sm:text-sm mb-1">
+                / Adult
+              </span>
+            </div>
+
+            <p className="text-[11px] sm:text-xs text-gray-400 mt-3">
+              Taxes included • Instant confirmation
+            </p>
+          </motion.div>
+          {/* <motion.div
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.4 }}
+            className="relative backdrop-blur-xl bg-white/10 border border-white/20 
+             rounded-2xl px-8 py-5 shadow-2xl flex flex-col items-center"
+          >
+            <span
+              className="absolute -top-3 bg-yellow-400 text-black text-xs font-bold 
+                   px-3 py-1 rounded-full shadow-md"
+            >
+              LIMITED OFFER
+            </span>
+
+            <p className="text-sm text-gray-300 tracking-wide">Starting From</p>
+
+            <div className="flex items-end gap-3 mt-1">
+              <span className="text-gray-400 line-through text-lg">
+                ₹{price}
+              </span>
+
+              <span className="text-4xl font-extrabold text-white">
+                ₹{slides[currentIndex].price}
+              </span>
+              <span className="text-gray-300 text-sm mb-1">/ Adult</span>
+            </div>
+
+            <p className="text-xs text-gray-400 mt-1">
+              Taxes included • Instant confirmation
+            </p>
+          </motion.div> */}
+
+          {/* <p className="text-lg text-gray-200">
             Starting at{" "}
             <span className="line-through opacity-60 mr-2">INR {price}</span>
             <span className="text-2xl font-bold text-white">
               INR {slides[currentIndex].price}
             </span>{" "}
             /Adult
-          </p>
-
+          </p> */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             {/* Primary CTA - Expert Connect */}
             <button
