@@ -78,34 +78,34 @@ export default function HeroHeader({
   return (
     <header className="relative overflow-hidden h-screen w-full bg-black">
       {/* Background Images */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={currentIndex}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.8 }}
-          className="absolute inset-0"
-        >
-         <Image
-  src={slides[currentIndex].url}
-  alt="Hero Background"
-  fill
-  priority={currentIndex === 0}
-  className="object-cover opacity-70"
-/>
-          <div
-            className={`absolute inset-0 bg-gradient-to-t
-    from-black/80 via-black/40 to-transparent
-    ${isEnquiryOpen ? "" : "backdrop-blur-[2px]"}`}
-            style={{
-              maskImage: "linear-gradient(to top, black 60%, transparent 100%)",
-              WebkitMaskImage:
-                "linear-gradient(to top, black 60%, transparent 100%)",
-            }}
-          />
-        </motion.div>
-      </AnimatePresence>
+     <AnimatePresence mode="wait">
+  <motion.div
+    key={currentIndex}
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.5 }}
+    className="absolute inset-0"
+  >
+    <Image
+      src={slides[currentIndex].url}
+      alt="Hero Background"
+      fill
+      sizes="100vw"
+      priority
+      className="object-cover opacity-70"
+    />
+    <div
+      className={`absolute inset-0 bg-gradient-to-t
+        from-black/80 via-black/40 to-transparent
+        ${isEnquiryOpen ? "" : "backdrop-blur-[2px]"}`}
+      style={{
+        maskImage: "linear-gradient(to top, black 60%, transparent 100%)",
+        WebkitMaskImage: "linear-gradient(to top, black 60%, transparent 100%)",
+      }}
+    />
+  </motion.div>
+</AnimatePresence>
 
       {/* Navigation Arrows */}
       <button

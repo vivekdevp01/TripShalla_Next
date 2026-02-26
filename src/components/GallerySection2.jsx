@@ -101,6 +101,7 @@ export default function GallerySection2() {
   src={img.src}
   alt={img.category}
   fill
+   sizes="(max-width: 768px) 100vw, 33vw"
   className="object-cover transition-transform duration-700 hover:scale-105"
 />
 
