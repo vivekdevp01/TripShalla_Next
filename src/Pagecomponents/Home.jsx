@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <>
-    <AdventureLoader>
+  
       <BaseHeader />
       <div className="space-y-10">
         <HeroSection />
@@ -47,7 +47,7 @@ export default function Home() {
         <ContactCTASection />
         <EnquiryModal isOpen={showEnquiry} onClose={() => setShowEnquiry(false)} />
       </div>
-      </AdventureLoader>
+  
     </>
   );
 }
