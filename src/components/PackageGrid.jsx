@@ -138,6 +138,7 @@ export default function PackageGrid({
   /* ---------------- UI ---------------- */
   return (
     <section className="max-w-7xl mx-auto px-6 py-12">
+      <AdventureLoader forceLoading={loading}>
       {/* ✅ SCROLL ANCHOR */}
       <div ref={gridTopRef} />
       {/* HEADING */}
@@ -158,8 +159,7 @@ export default function PackageGrid({
         </p>
       </div>
 
-      {/* LOADING */}
-      {loading && <AdventureLoader />}
+  
 
       {/* NO RESULTS */}
       {!loading && filteredPackages.length === 0 && (
@@ -355,6 +355,7 @@ export default function PackageGrid({
         onClose={() => setIsModalOpen(false)}
         packageId={selectedPackageId}
       />
+      </AdventureLoader>
     </section>
   );
 }

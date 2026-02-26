@@ -416,19 +416,15 @@ export default function Tour() {
   const bestPricing = pricingOptions
     .slice()
     .sort((a, b) => a.final_price - b.final_price)[0];
-  if (loading)
-    return (
-      <div className="p-10">
-        <AdventureLoader />
-      </div>
-    );
+
   const heroImage =
     media.find((m) => m.media_role === "hero_banner")?.media_url ||
     media.find((m) => m.media_role === "hero")?.media_url ||
     media.find((m) => m.media_role === "cover")?.media_url;
 
-  if (!pkg) return <div className="p-10">Trek not found</div>;
+  if (!loading && !pkg) return <div className="p-10">Trek not found</div>;
   return (
+    <AdventureLoader forceLoading={loading}>
     <main className="bg-[#FAFAFA]">
       {/* <Header
         variant="tour"
@@ -437,37 +433,33 @@ export default function Tour() {
         badges={["5 Days", "12,500 ft", "Easy–Moderate"]}
         bgImage="/src/assets/1.jpg"
       /> */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "TouristAttraction",
-            name: pkg.name,
-            description: pkg.tagline,
-            url: `https://www.tripshalla.in/trek/${pkg.slug}`,
-            image: heroImage,
-            offers: {
-              "@type": "Offer",
-              price: bestPricing?.final_price,
-              priceCurrency: "INR",
-              availability: "https://schema.org/InStock",
-            },
-            aggregateRating: pkg.rating
-              ? {
+    {pkg && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "TouristAttraction",
+                name: pkg.name,
+                description: pkg.tagline,
+                url: `https://www.tripshalla.in/trek/${pkg.slug}`,
+                image: heroImage,
+                offers: {
+                  "@type": "Offer",
+                  price: bestPricing?.final_price,
+                  priceCurrency: "INR",
+                  availability: "https://schema.org/InStock",
+                },
+                aggregateRating: pkg.rating ? {
                   "@type": "AggregateRating",
                   ratingValue: pkg.rating,
                   reviewCount: pkg.review_count || 10,
-                }
-              : undefined,
-            provider: {
-              "@type": "Organization",
-              name: "Tripshalla",
-              url: "https://www.tripshalla.in",
-            },
-          }),
-        }}
-      />
+                } : undefined,
+                provider: { "@type": "Organization", name: "Tripshalla", url: "https://www.tripshalla.in" },
+              }),
+            }}
+          />
+        )}
 
       {pkg && (
         <Header
@@ -523,12 +515,12 @@ export default function Tour() {
               details={packageDetails}
             /> */}
             <TourDetails
-              title={pkg.name}
-              highlight={pkg.tagline}
+              title={pkg?.name}
+              highlight={pkg?.tagline}
               summary={[
-                `${pkg.duration_days} Days`,
-                pkg.difficulty || "Easy",
-                pkg.type.toUpperCase(),
+                `${pkg?.duration_days} Days`,
+                pkg?.difficulty || "Easy",
+                pkg?.type?.toUpperCase(),
               ]}
               amenities={[
                 { icon: <HiOutlineHome />, label: "Luxury Stay" },
@@ -611,5 +603,6 @@ export default function Tour() {
 
       <StickyWhatsApp />
     </main>
+    </AdventureLoader>
   );
 }

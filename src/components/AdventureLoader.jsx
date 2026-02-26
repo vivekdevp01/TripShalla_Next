@@ -1,73 +1,106 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+"use client"; // Critical for Next.js App Router
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
-const AdventureLoader = () => {
-  return (
-    <div className="fixed inset-0 z-[999] flex flex-col items-center justify-center bg-white">
-      <div className="relative flex items-center justify-center">
-        
-        {/* Outer Rotating Sun Ring (Broken line for modern feel) */}
-        <motion.div
-          className="absolute h-36 w-36 rounded-full border-4 border-dashed border-[#F7A325]/20"
-          animate={{ rotate: 360 }}
-          transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-        />
+const AdventureLoader = ({ children, forceLoading = null }) => {
+  const [internalLoading, setInternalLoading] = useState(true);
 
-        {/* Inner Solid Pulsing Sun Ring */}
-        <motion.div
-          className="absolute h-28 w-28 rounded-full border-2 border-[#F7A325]"
-          animate={{ scale: [1, 1.1, 1], opacity: [1, 0.5, 1] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-        />
+  useEffect(() => {
+    // If no forceLoading prop is passed (Home Page mode)
+    if (forceLoading === null) {
+      const timer = setTimeout(() => {
+        setInternalLoading(false);
+      }, 2500);
+      return () => clearTimeout(timer);
+    }
+  }, [forceLoading]);
 
-        {/* Central Logo Symbol: The Mountains */}
-        <div className="relative flex flex-col items-center">
-          <motion.div
-            initial={{ y: 10, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
+  // Determine if we should show the loader
+  // If forceLoading is provided, follow that. Otherwise, follow the timer.
+  const isCurrentlyLoading = forceLoading !== null ? forceLoading : internalLoading;
+return (
+    <>
+      <AnimatePresence>
+        {isCurrentlyLoading && (
+          <motion.div 
+            key="loader"
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-white"
           >
-            <svg
-              className="h-16 w-16 text-[#00796B]"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
+            <div className="relative flex items-center justify-center">
+              {/* Outer Rotating Sun Ring */}
+              <motion.div
+                className="absolute h-36 w-36 rounded-full border-4 border-dashed border-[#F7A325]/20"
+                animate={{ rotate: 360 }}
+                transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+              />
+
+              {/* Inner Solid Pulsing Sun Ring */}
+              <motion.div
+                className="absolute h-28 w-28 rounded-full border-2 border-[#F7A325]"
+                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.5, 1] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              />
+
+              {/* Central Logo Symbol: The Mountains */}
+              <div className="relative flex flex-col items-center">
+                <motion.div
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.8 }}
+                >
+                  <svg
+                    className="h-16 w-16 text-[#00796B]"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M4 21L10 7L13 13L16 9L21 21H4Z" />
+                    <circle cx="17" cy="6" r="2.5" className="text-[#F7A325]" />
+                  </svg>
+                </motion.div>
+              </div>
+            </div>
+
+            {/* Brand Text Content */}
+            <motion.div 
+              className="mt-12 flex flex-col items-center gap-3"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
             >
-              {/* Modern Triple Peak Mountain Path */}
-              <path d="M4 21L10 7L13 13L16 9L21 21H4Z" />
-              {/* Sun/Point element */}
-              <circle cx="17" cy="6" r="2.5" className="text-[#F7A325]" />
-            </svg>
+              <h2 className="text-3xl font-black tracking-tighter text-[#1A1D1F] uppercase italic">
+                Tripshalla
+              </h2>
+              
+              <div className="relative h-1 w-32 bg-slate-100 rounded-full overflow-hidden">
+                <motion.div
+                  className="absolute top-0 left-0 h-full bg-[#F7A325]"
+                  initial={{ width: "0%" }}
+                  animate={{ width: "100%" }}
+                  transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                />
+              </div>
+
+              <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mt-2">
+                Mapping your adventure
+              </p>
+            </motion.div>
           </motion.div>
-        </div>
-      </div>
+        )}
+      </AnimatePresence>
 
-      {/* Brand Text Content */}
-      <motion.div 
-        className="mt-12 flex flex-col items-center gap-3"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.3 }}
+      {/* This renders your website content once the loader starts hiding */}
+   <main 
+        style={{ 
+          display: isCurrentlyLoading ? 'none' : 'block',
+          opacity: isCurrentlyLoading ? 0 : 1,
+          transition: 'opacity 0.5s ease-in-out' 
+        }}
       >
-        <h2 className="text-3xl font-black tracking-tighter text-[#1A1D1F] uppercase italic">
-          Tripshalla
-        </h2>
-        
-        {/* Progress Bar Style Loader */}
-        <div className="relative h-1 w-32 bg-slate-100 rounded-full overflow-hidden">
-          <motion.div
-            className="absolute top-0 left-0 h-full bg-[#F7A325]"
-            initial={{ width: "0%" }}
-            animate={{ width: "100%" }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          />
-        </div>
-
-        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mt-2">
-          Mapping your adventure
-        </p>
-      </motion.div>
-    </div>
+        {children}
+   </main>
+    </>
   );
 };
 
