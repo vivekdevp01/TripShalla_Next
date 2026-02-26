@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
-import AdventureLoader from "../components/AdventureLoader";
+import AdventureLoader from "../components/AdventureLoader"
 
 export const metadata: Metadata = {
   title: "Tripshalla | Adventure in Rishikesh",
@@ -47,9 +47,9 @@ export default function RootLayout({
       </head>
       <body>
       <ScrollToTop/>
-
+<AdventureLoader>
         {children}
-    
+    </AdventureLoader>
         <Footer/>
       </body>
     </html>

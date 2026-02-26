@@ -5,7 +5,7 @@ import { supabase } from "../lib/supabase";
 import { useParams, useRouter, usePathname } from "next/navigation";
 import EnquiryModal from "./Packages/EnquiryModal";
 import { motion } from "framer-motion";
-import AdventureLoader from "./AdventureLoader";
+
 
 const overlayByCategory = {
   overlayColor: "from-amber-900/90 via-amber-900/40 to-transparent",
@@ -138,7 +138,7 @@ export default function PackageGrid({
   /* ---------------- UI ---------------- */
   return (
     <section className="max-w-7xl mx-auto px-6 py-12">
-      <AdventureLoader forceLoading={loading}>
+   
       {/* ✅ SCROLL ANCHOR */}
       <div ref={gridTopRef} />
       {/* HEADING */}
@@ -355,7 +355,7 @@ export default function PackageGrid({
         onClose={() => setIsModalOpen(false)}
         packageId={selectedPackageId}
       />
-      </AdventureLoader>
+    
     </section>
   );
 }

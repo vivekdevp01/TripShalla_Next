@@ -10,8 +10,6 @@ import EnquiryModal from "../components/Packages/EnquiryModal";
 import HowItWorksMini from "../components/HowItWorksMini";
 import LocalAdvantageSection from "../components/LocalAdvantageSection";
 import BaseHeader from "../components/BaseHeader";
-import Footer from "../components/Footer";
-import AdventureLoader from "../components/AdventureLoader";
 
 export default function Home() {
   const [showEnquiry, setShowEnquiry] = useState(false);
