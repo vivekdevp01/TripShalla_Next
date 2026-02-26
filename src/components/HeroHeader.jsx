@@ -47,6 +47,11 @@ export default function HeroHeader({
 
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
   const pathname = usePathname();
+  const priceList = {
+  "/packages/camp": "1000",
+  "/bungee": "1200",
+};
+const price = priceList[pathname] || "600";
   const pathSegment = pathname.split("/").pop();
   // Auto-scroll logic
   useEffect(() => {
@@ -157,7 +162,7 @@ export default function HeroHeader({
         >
           <p className="text-lg text-gray-200">
             Starting at{" "}
-            <span className="line-through opacity-60 mr-2">INR 9,998</span>
+            <span className="line-through opacity-60 mr-2">INR {price}</span>
             <span className="text-2xl font-bold text-white">
               INR {slides[currentIndex].price}
             </span>{" "}
